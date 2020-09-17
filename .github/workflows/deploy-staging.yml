@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v1
      
       - name: Download built artifact
-        uses: actions/downlaod-artifact@master
+        uses: actions/download-artifact@master
         with:
           name: webpack artifacts
           path: public
